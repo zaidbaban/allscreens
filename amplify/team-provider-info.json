@@ -1,15 +1,15 @@
 {
-    "test": {
+    "prod": {
         "awscloudformation": {
-            "AuthRoleName": "amplify-allscreens-test-121919-authRole",
-            "UnauthRoleArn": "arn:aws:iam::467005446488:role/amplify-allscreens-test-121919-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::467005446488:role/amplify-allscreens-test-121919-authRole",
-            "Region": "us-east-1",
-            "DeploymentBucketName": "amplify-allscreens-test-121919-deployment",
-            "UnauthRoleName": "amplify-allscreens-test-121919-unauthRole",
-            "StackName": "amplify-allscreens-test-121919",
-            "StackId": "arn:aws:cloudformation:us-east-1:467005446488:stack/amplify-allscreens-test-121919/e2322dd0-56ff-11ea-b5ae-12c5c4f78283",
-            "AmplifyAppId": "d2l221pdutuhiq"
+            "AuthRoleName": "amplify-allscreens-prod-00836-authRole",
+            "UnauthRoleArn": "arn:aws:iam::665353586508:role/amplify-allscreens-prod-00836-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::665353586508:role/amplify-allscreens-prod-00836-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "amplify-allscreens-prod-00836-deployment",
+            "UnauthRoleName": "amplify-allscreens-prod-00836-unauthRole",
+            "StackName": "amplify-allscreens-prod-00836",
+            "StackId": "arn:aws:cloudformation:eu-central-1:665353586508:stack/amplify-allscreens-prod-00836/993289d0-76d1-11ea-8d83-069442661d72",
+            "AmplifyAppId": "d3io6qw2fzmezs"
         },
         "categories": {
             "auth": {
@@ -18,15 +18,12 @@
             },
             "function": {
                 "allscreens59d1a2d8PreSignup": {
-                    "DOMAINWHITELIST": "vtc.edu.hk,stu.vtc.edu.hk"
+                    "DOMAINWHITELIST": "coozyn.com,coozyn.app,coozyn-dev.com,coozynlab.com"
                 },
                 "allscreens59d1a2d8PostConfirmation": {
                     "GROUP": "students"
                 },
                 "S3Trigger4122c033": {},
-                "allscreens59d1a2d8": {},
-                "screenshots": {},
-                "userPoolGroups": {},
                 "searchKendra": {}
             },
             "xr": {
@@ -36,84 +33,6 @@
                     "region": "us-east-1",
                     "projectName": "Drafts-assumed-role/CrossAccountSignin/cyrus"
                 }
-            }
-        }
-    },
-    "production": {
-        "awscloudformation": {
-            "AuthRoleName": "amplify-allscreens-production-40814-authRole",
-            "UnauthRoleArn": "arn:aws:iam::467005446488:role/amplify-allscreens-production-40814-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::467005446488:role/amplify-allscreens-production-40814-authRole",
-            "Region": "us-east-1",
-            "DeploymentBucketName": "amplify-allscreens-production-40814-deployment",
-            "UnauthRoleName": "amplify-allscreens-production-40814-unauthRole",
-            "StackName": "amplify-allscreens-production-40814",
-            "StackId": "arn:aws:cloudformation:us-east-1:467005446488:stack/amplify-allscreens-production-40814/724cd940-5784-11ea-ad32-0a28f59d0ab4",
-            "AmplifyAppId": "d2l221pdutuhiq"
-        },
-        "categories": {
-            "auth": {
-                "allscreens59d1a2d8": {},
-                "userPoolGroups": {}
-            },
-            "function": {
-                "allscreens59d1a2d8PreSignup": {
-                    "DOMAINWHITELIST": "vtc.edu.hk,stu.vtc.edu.hk"
-                },
-                "allscreens59d1a2d8PostConfirmation": {
-                    "GROUP": "students"
-                },
-                "S3Trigger4122c033": {},
-                "allscreens59d1a2d8": {},
-                "screenshots": {},
-                "userPoolGroups": {}
-            },
-            "xr": {
-                "VirtualTutor": {
-                    "url": "https://sumerian.us-east-1.amazonaws.com/20180801/projects/Drafts-assumed-role%2FCrossAccountSignin%2Fcyrus/release/authTokens?sceneId=6ee1bb051bfe4cd59c39a22f4affd16c.scene",
-                    "sceneId": "6ee1bb051bfe4cd59c39a22f4affd16c.scene",
-                    "region": "us-east-1",
-                    "projectName": "Drafts-assumed-role/CrossAccountSignin/cyrus"
-                }
-            }
-        }
-    },
-    "iamfix": {
-        "awscloudformation": {
-            "AuthRoleName": "amplify-allscreens-iamfix-75450-authRole",
-            "UnauthRoleArn": "arn:aws:iam::467005446488:role/amplify-allscreens-iamfix-75450-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::467005446488:role/amplify-allscreens-iamfix-75450-authRole",
-            "Region": "us-east-1",
-            "DeploymentBucketName": "amplify-allscreens-iamfix-75450-deployment",
-            "UnauthRoleName": "amplify-allscreens-iamfix-75450-unauthRole",
-            "StackName": "amplify-allscreens-iamfix-75450",
-            "StackId": "arn:aws:cloudformation:us-east-1:467005446488:stack/amplify-allscreens-iamfix-75450/1885c260-5c5b-11ea-ad4a-0e880f83ff7f",
-            "AmplifyAppId": "d2l221pdutuhiq"
-        },
-        "categories": {
-            "auth": {
-                "allscreens59d1a2d8": {},
-                "userPoolGroups": {}
-            },
-            "function": {
-                "allscreens59d1a2d8PreSignup": {
-                    "DOMAINWHITELIST": "stu.vtc.edu.hk,vtc.edu.hk"
-                },
-                "allscreens59d1a2d8PostConfirmation": {
-                    "GROUP": "students"
-                },
-                "S3Trigger4122c033": {}
-            },
-            "xr": {
-                "VirtualTutor": {
-                    "url": "https://sumerian.us-east-1.amazonaws.com/20180801/projects/Drafts-assumed-role%2FCrossAccountSignin%2Fcyrus/release/authTokens?sceneId=d39214655b2849ca801e35b36d51cbd7.scene",
-                    "sceneId": "d39214655b2849ca801e35b36d51cbd7.scene",
-                    "region": "us-east-1",
-                    "projectName": "Drafts-assumed-role/CrossAccountSignin/cyrus"
-                }
-            },
-            "extra": {
-                "iam": {}
             }
         }
     }
